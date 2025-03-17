@@ -3,7 +3,13 @@ import { createSlice ,
      } from "@reduxjs/toolkit";
  
 type statetype = {
-    list: object[];
+    list: listitem[];
+    done: boolean;
+};
+
+type listitem = {
+    id: number;
+    title: string;
     done: boolean;
 };
 
