@@ -1,11 +1,13 @@
 
 import './App.css'
+import Inputa from './components/Inputa'
 
 function App() {
 
   return (
-//  <p className='text-red-500'>aya</p>
+
 <>
+<Inputa/>
 </>
   )
 }
