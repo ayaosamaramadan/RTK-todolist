@@ -40,12 +40,19 @@ const todoSlice = createSlice({
                     // }
                     item.done = !item.done;
                 }
+
+
             }
             );
+        }
+
+,
+        deleteo: (state, action) => {
+            state.list = state.list.filter((item) => item.id !== action.payload);
         }
     }
 });
 
 
-export const { addTodo, checked } = todoSlice.actions;
+export const { addTodo, checked,deleteo } = todoSlice.actions;
 export default todoSlice.reducer;

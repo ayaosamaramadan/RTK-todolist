@@ -35,6 +35,10 @@ const Inputa = () => {
         Add Note
       </button>
 
+
+
+
+
     </form>
     </>
   );
