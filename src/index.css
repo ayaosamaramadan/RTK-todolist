@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   @apply bg-pink-200 flex justify-center items-center mt-10;
 }

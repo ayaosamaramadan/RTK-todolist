@@ -1,16 +1,13 @@
-
-import './App.css'
-import Inputa from './components/Inputa'
-import Items from './components/Items'
+import "./App.css";
+import Inputa from "./components/Inputa";
+import Items from "./components/Items";
 function App() {
-
   return (
-
-<>
-<Inputa/>
-<Items/>
-</>
-  )
+    <>
+      <Inputa />
+      <Items />
+    </>
+  );
 }
 
-export default App
+export default App;
